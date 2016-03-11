@@ -1,0 +1,223 @@
+<!DOCTYPE html> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>Responsive Architecture</title> 
+ 
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]--> 
+ 
+    <!-- jQuery --> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script> 
+
+	<!-- presentation js --> 
+    <script src="http://www.digitee.fr/js/prez_01.js"></script> 
+
+	<!-- GoogleFonts -->
+<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed' rel='stylesheet' type='text/css'>
+
+	<!-- css -->
+<style>
+*{
+margin: 0;
+padding: 0;
+}
+
+body {background-color: #000; color:white; font-family: 'Ubuntu Condensed', sans-serif; font-size: 40px;  line-height:56px; }
+
+a{color:white;}
+
+article.deck { margin: 0; padding:0; width: 100%; height: 100%; }
+
+article.deck footer {
+width: 50%;
+margin: 0;
+position: absolute;
+left: 50px;
+font-size: 35%;
+bottom: 10px;
+}
+
+article.deck section {padding:50px;}
+
+article.deck section h1 {font-size: 100px; line-height:120px; margin-top:100px;}
+article.deck section h2 {font-size: 70px;  line-height:80px; z-index:0; background-color:black; width:50%;}
+article.deck section h3 {font-size: 60px;  line-height:auto; z-index:0; font-weight:normal;}
+article.deck section p {background-color:black; width:50%;}
+article.deck section small {font-size: 14px;}
+article.deck section p.credits {font-size: 18px; position:fixed; bottom:10px; left:10px; }
+
+article.deck section img.right {float:right; width:33%; margin:0 20px 0 100px;}
+article.deck section img.cntr {text-align:center; height:95%;}
+
+article.deck section img.bkg{
+position:fixed;
+top:0;
+left:0;
+z-index:-1000;
+width:100%;
+}
+
+article.deck section img.bkg_h{
+position:fixed;
+top:0;
+right:0;
+z-index:-1000;
+height:100%;
+}
+
+article.deck section img.bkg_small{
+position:fixed;
+top:0;
+right:0;
+z-index:-1000;
+height:70%;
+}
+</style>
+
+  </head> 
+  <body> 
+    <article class="deck"> 
+
+<section> 
+<h1>Responsive Architecture</h1>
+<p>pyc - Design numérique AI5 - Oct. 2011</p>
+<small>Use right and left arrows to navigate through the presentation.</small>
+</section>
+
+<section>
+<h2>Conversation Theory</h2>
+<p>Gordon Pask</p>
+<img class="bkg" src="http://4.bp.blogspot.com/_b7d7jFYfRTI/TVKRE5BcWqI/AAAAAAAAANI/RUTylfSH2Fs/s400/pask_diagram1-1006x1024%255B1%255D.jpg">
+</section>
+
+<section>
+<h2>Psychogéographie</h2> 
+<p>Guy Debord</p>
+<img class="bkg" src="http://4.bp.blogspot.com/_NV5qyb0qnDo/TIYzSyzMByI/AAAAAAAAALM/9NgP_Pg46Xg/s1600/naked.jpg">
+</section>
+
+<section>
+<h2>Fun Palace</h2>
+<p>Cedric Price</a> 
+<img class="bkg" src="http://unamaquinalectoradecontexto.files.wordpress.com/2011/08/cedric-price-fun-palace-4.png">
+</section>
+
+<section>
+<h2>Computer City</h2>
+<p>Archigram</p>
+<img class="bkg" src="http://archigram.westminster.ac.uk/img/prj_thumbs/234_medium.jpg">
+</section>
+
+<section>
+<h2>Kunsthaus Graz</h2>
+<p>Peter Cook | Colin Fournier | <a href="http://realities-united.de/#PROJECT,69,1">Realities United</a></p>
+<img class="bkg" src="http://realities-united.de/_INCL/pic_detail.php?id=94&h=746&w=1418">
+</section>
+
+<section>
+<h2>ResoNet</h2>
+<p>william hailiang chen + mark francis tynan + shireen hamdan</p>
+<img class="bkg" src="http://www.designboom.com/contest/files/copy_112_image1.jpg">
+</section>
+
+<section>
+<h2>Lotus 7.0</h2>
+<p><a href="http://www.studioroosegaarde.net/project/lotus/">Daan Roosegaarde</a></p>
+<img class="bkg" src="http://2.bp.blogspot.com/_LLK0sNezyZk/TSiZ3f9yHJI/AAAAAAAAAog/PTm9lgfKwqc/s1600/lotus3.jpg">
+</section>
+
+<section>
+<h2>Open Columns</h2>
+<p>Omar Khan | <a href="http://vimeo.com/921231">Video on Vimeo</a></p>
+<img class="bkg" src="http://www.sentientcity.net/exhibit/wp-content/uploads/opencolumns.jpg">
+</section>
+
+<section>
+<h2>The Idea Cloud</h2>
+<p>Tristan d’Estrée Sterk | ORAMBRA | <a href="http://www.orambra.com/bienal/">The Idea Cloud</a> | <a href="http://www.orambra.com/makeItWork.html">Make It Work</a></p>
+<img class="bkg" src="http://www.orambra.com/survey/~ideaCloud/large/ideaCloud_9.jpg">
+</section>
+
+<section>
+<h2>Carbon Tower</h2>
+<p>Peter Testa</p>
+<img class="bkg" src="http://news.cnet.com/i/ne/p/2005/412testa500x313.jpg">
+</section>
+
+<section>
+<h2>Pike Loop</h2>
+<p>Gramazio & Kohler | <a href="http://vimeo.com/6973740">Video on Vimeo</a></p>
+<img class="bkg" src="http://brokensidewalk.com/wp-content/uploads/2010/04/pike_loop_06.jpg">
+</section>
+
+<section>
+<h2>Serpentine Gallery Pavilion 2002</h2>
+<p>Toyo Ito</p>
+<img class="bkg" src="http://1.bp.blogspot.com/_1dYxadR50v0/TOrjL3z1IkI/AAAAAAAAAhY/ToPDo6nBhp4/s1600/asm2_img_cecil_balmond2.jpg">
+</section>
+
+<section>
+<h2>Flesh on bones</h2>
+<p>Markus Wikar, Finland</p>
+<img class="bkg" src="http://www.archtracker.com/wp-content/uploads/2009/10/generate-markus-520x372.jpg">
+</section>
+
+<section>
+<h2>Substrate</h2>
+<p><a href="http://www.complexification.net/gallery/machines/substrate/index.php">Jared Tarbell</a></p>
+<img class="bkg" src="http://www.complexification.net/gallery/machines/substrate/substratePRN.jpg">
+</section>
+
+<section>
+<h2>Architecture des humeurs</h2>
+<p>R&Sie(n)</p>
+<p><a href="http://www.new-territories.com/une%20architectures%20des%20humeurs%20page.htm">Architecture des humeurs @ New Territories</a></p>
+<img class="bkg" src="http://1.bp.blogspot.com/_Aak_5eFTPJI/TNGt20C2jJI/AAAAAAAAA3o/VZg475RCpco/s1600/S3-DSC_00041.jpg">
+</section>
+
+<section>
+<h2>Architecture des humeurs</h2>
+<img class="bkg" src="http://farm3.static.flickr.com/2787/4435662904_f64b733f78_z.jpg">
+</section>
+
+<section>
+<h2>Architecture des humeurs</h2>
+<img class="bkg" src="http://farm5.static.flickr.com/4012/4435663536_247f39210a_z.jpg">
+</section>
+
+<section>
+<h2>Architecture des humeurs</h2>
+<img class="bkg" src="http://farm5.static.flickr.com/4041/4435664464_4727c9d184_z.jpg">
+</section>
+
+<section>
+<mark>Thanks!</mark>
+
+</section>
+
+
+
+<!-- footer -->
+
+<footer> 
+<address> 
+<a href="http://lieu-subjectif.org/propos/responsive-architecture.html">Responsive Architecture</a> - pyc pour <a href="http://lieu-subjectif.org/">un lieu subjectif</a>...
+</address> 
+
+</footer> 
+</article> 
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-868901-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body> 
+</html> 

@@ -1,0 +1,16 @@
+*{margin: 0; padding: 0;}
+body{ padding: 10px; font-size: 16px; line-height: 22px; font-family: 'WorkSans', sans-serif;}
+h1, h2, h3, p, ul {margin-bottom: 10px;}
+h1 {font-weight: 900; font-size: 42px; line-height: 40px;}
+h2 {margin-top: 28px;}
+ul {list-style-type: none;}
+ul li:before{content: "→ "}
+img {margin: 10px 0;}
+
+@media screen and (min-width: 640px) {
+img{width: 600px; }
+}
+
+@media screen and (max-width: 639px) {
+img{width: 300px; }
+}
