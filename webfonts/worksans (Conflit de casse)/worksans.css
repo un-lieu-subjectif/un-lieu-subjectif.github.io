@@ -7,7 +7,7 @@
     font-weight: 400;
     text-rendering: optimizeLegibility;
   }
-  @font-face {
+@font-face {
       font-family: 'WorkSans';
       src: url('WorkSans-Black.woff') format('woff'),
            url('WorkSans-Black.woff2') format('woff2'),
@@ -16,3 +16,12 @@
       font-weight: 900;
       text-rendering: optimizeLegibility;
     }
+@font-face {
+        font-family: 'WorkSans';
+        src: url('WorkSans-ExtraBold.woff') format('woff'),
+             url('WorkSans-ExtraBold.woff2') format('woff2'),
+             url('WorkSans-ExtraBold.ttf') format('truetype');
+        font-style: normal;
+        font-weight: 700;
+        text-rendering: optimizeLegibility;
+      }

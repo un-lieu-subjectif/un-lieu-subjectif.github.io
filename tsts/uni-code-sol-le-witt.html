@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>UniCodeIsSolLeWitt</title>
+    <style media="screen">
+      *{margin: 0; padding: 0;}
+      body{font-size: 400px; line-height: 400px; font-family: 'Millimeter'; font-weight: bold;}
+      #canvas{position: relative; width: 583px; height: 583px;margin: 100px auto;}
+      #ur, #ul, #dr, #dl{position: absolute; border: 21px solid black; width: 260px; height: 260px; overflow: hidden}
+      #ur{top:0; right:0;}
+      #ul{top:0; left:0;}
+      #dr{bottom:0; right:0;}
+      #dl{bottom:0; left:0;}
+      span p{position: absolute; top: -76px; left: -59px;}
+      h1{font-size: 32px; line-height: 32px; text-align: center;}
+    </style>
+    <link rel="stylesheet" href="../webfonts/millimeter/millimeter.css">
+    <script type="text/javascript">
+
+    function shuffleArray(array) {
+    for (var i = array.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+    return array;
+    }
+
+    var words = ['Uni','Code','Sol','Le','Witt','Is'];
+    var colors = ['yellow','blue','red','black'];
+    var patterns = ['▤','▥','▧','▨'];
+
+    rndmTitle = (shuffleArray(words));
+    rndmColors = (shuffleArray(colors));
+    rndmPatterns = (shuffleArray(patterns));
+
+    </script>
+  </head>
+  <body>
+<div id="canvas">
+
+  <script type="text/javascript">
+  document.write("<span id='ur'><p>" + rndmPatterns[0] + "</p></span>");
+  document.write("<span id='ul'><p>" + rndmPatterns[1] + "</p></span>");
+  document.write("<span id='dl'><p>" + rndmPatterns[2] + "</p></span>");
+  document.write("<span id='dr'><p>" + rndmPatterns[3] + "</p></span>");
+
+  </script>
+
+</div>
+<h1 id="title"></h1>
+
+<script type="text/javascript">
+var title = "";
+ for (var i = 0; i < rndmTitle.length; i++) {
+ title = rndmTitle[i] + title;
+};
+ document.getElementById('title').innerHTML = title;
+ document.getElementById('ur').style.color = rndmColors[0];
+ document.getElementById('ul').style.color = rndmColors[1];
+ document.getElementById('dr').style.color = rndmColors[2];
+ document.getElementById('dl').style.color = rndmColors[3];
+</script>
+
+  </body>
+
+</html>

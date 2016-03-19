@@ -1,0 +1,204 @@
+Web Fonts:
+**********
+
+millimetreA Bold 01.ufo
+-----------------------
+source: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/1-drawing/millimetreA Bold 01.ufo
+
+Build OTF
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.otf
+    Source is a UFO file. Generate OTF.
+        --------------------
+        
+        parts Report
+        
+        [Warning] The trademark was normalized for storage in the CFF table and consequently some characters were dropped: 'Jeremy Landes'
+        [Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'Jeremy Landes'
+        
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+        makeotf [Note] adding the style Bold from fontinfo keyword.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe -f font.otf.tmp -o tmpaJpJRb.otf -ff features -gf glyphOrder -mf menuname -r -b
+        makeotfexe [WARNING] <Millimetre-Bold> Major version number not in range 1 .. 255 [features 130]
+        makeotfexe [NOTE] Wrote new font file 'tmpaJpJRb.otf'.
+        
+        
+        Built release mode font 'tmpaJpJRb.otf' Revision 0.000
+        
+        --------------------
+        Hinting font /var/folders/cb/d38_8ylx0k97x1nqhp_50gy00000gn/T/tmpaJpJRb.otf. Start time: Mon Mar  7 15:22:59 2016.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .................................
+        Saving font file with new hints...Mon Mar  7 15:23:02 2016
+        Done with font /var/folders/cb/d38_8ylx0k97x1nqhp_50gy00000gn/T/tmpaJpJRb.otf. End time: Mon Mar  7 15:23:02 2016.
+        
+
+Build TTF
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/tmpPtjdzg.ttf' to temporary Unix Type1 font file '/tmpPtjdzg.ttf.tmp'.
+        makeotf [Note] adding the style Bold from fontinfo keyword.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe -f tmpPtjdzg.ttf.tmp -o tmpPtjdzg.ttf -ff features -gf glyphOrder -mf menuname -r -b
+        makeotfexe [WARNING] <Millimetre-Bold> Major version number not in range 1 .. 255 [features 130]
+        makeotfexe [NOTE] Wrote new font file 'tmpPtjdzg.ttf'.
+        
+        
+        Built release mode font 'tmpPtjdzg.ttf' Revision 0.000
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.woff2
+
+Build EOT
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.eot
+
+Build SVG
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Bold/Millimetre-Bold_web.svg
+
+
+millimetreA 01.ufo
+------------------
+source: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/1-drawing/millimetreA 01.ufo
+
+Build OTF
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.otf
+    Source is a UFO file. Generate OTF.
+        --------------------
+        
+        parts Report
+        
+        [Warning] The trademark was normalized for storage in the CFF table and consequently some characters were dropped: 'Jeremy Landes'
+        [Warning] The copyright was normalized for storage in the CFF table and consequently some characters were dropped: 'Jeremy Landes'
+        
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/font.otf' to temporary Unix Type1 font file '/font.otf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe -f font.otf.tmp -o tmpHeFj84.otf -ff features -gf glyphOrder -mf menuname -r
+        makeotfexe [WARNING] <Millimetre-Regular> Major version number not in range 1 .. 255 [features 130]
+        makeotfexe [NOTE] Wrote new font file 'tmpHeFj84.otf'.
+        
+        
+        Built release mode font 'tmpHeFj84.otf' Revision 0.000
+        
+        --------------------
+        Hinting font /var/folders/cb/d38_8ylx0k97x1nqhp_50gy00000gn/T/tmpHeFj84.otf. Start time: Mon Mar  7 15:23:15 2016.
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .........................................
+        .............................
+        Saving font file with new hints...Mon Mar  7 15:23:18 2016
+        Done with font /var/folders/cb/d38_8ylx0k97x1nqhp_50gy00000gn/T/tmpHeFj84.otf. End time: Mon Mar  7 15:23:18 2016.
+        
+
+Build TTF
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.ttf
+    Source is a UFO file. Generate TTF.
+        --------------------
+        
+        makeotf Report
+        
+        makeotf [Note] Converting source font '/tmpE6aQWE.ttf' to temporary Unix Type1 font file '/tmpE6aQWE.ttf.tmp'.
+        makeotf [Note] setting the DONT_USE_WIN_LINE_METRICS OS/2 fsSelection bit 7 from fontinfo keyword.
+        makeotf [Note] setting the WEIGHT_WIDTH_SLOPE_ONLY OS/2 fsSelection bit 8 from fontinfo keyword.
+        makeotf [Note] setting the OBLIQUE OS/2 fsSelection bit 9 from fontinfo keyword.
+        makeotf [Note] Writing options file /current.fpr
+        makeotf [Note] Running makeotfexe with commands:
+           cd ""
+           makeotfexe -f tmpE6aQWE.ttf.tmp -o tmpE6aQWE.ttf -ff features -gf glyphOrder -mf menuname -r
+        makeotfexe [WARNING] <Millimetre-Regular> Major version number not in range 1 .. 255 [features 130]
+        makeotfexe [NOTE] Wrote new font file 'tmpE6aQWE.ttf'.
+        
+        
+        Built release mode font 'tmpE6aQWE.ttf' Revision 0.000
+        
+        --------------------
+
+Build WOFF (TTF)
+''''''''''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.woff
+
+Build WOFF2 (TTF)
+'''''''''''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.woff2
+
+Build EOT
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.eot
+
+Build SVG
+'''''''''
+    path: /Users/jjjlllnnn/ownCloud/Typo/millimetre/sources wip/3-webfonts/Millimetre/Regular/Millimetre-Regular_web.svg
+
+
+
+TTFAutohint options:
+********************
+addTTFAutoHintInfo     = False
+dwClearType            = False
+fallbackScript         = False
+gdiClearType           = True
+grayScale              = False
+hintRangeMaximum       = 50
+hintRangeMinimum       = 8
+hintingLimit           = 200
+noHintingLimit         = False
+noXHeightIncreaseLimit = False
+overRideFontLicense    = False
+preHinting             = False
+symbolFont             = False
+xHeightIncreaseLimit   = 14
