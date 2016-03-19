@@ -10,7 +10,7 @@ h1, h2, h3, p, ul {margin-bottom: 10px;}
 h1, h2, h3 {font-weight: 700; }
 h1 {font-size: 52px; line-height: 48px; word-spacing: -7px;}
 h2 {margin-top: 28px;}
-ul {list-style-type: square;}
+ul {list-style-type: square; list-style-position: inside;}
 img {margin: 10px 0;}
 hr{margin: 20px auto; height: 10px; background-color: black;}
 footer{margin: 0 auto;}
