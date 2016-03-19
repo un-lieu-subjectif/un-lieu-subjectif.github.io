@@ -6,7 +6,7 @@
     <style media="screen">
       *{margin: 0; padding: 0;}
       body{font-size: 400px; line-height: 400px; font-family: 'Millimetre'; font-weight: bold;}
-      #canvas{position: relative; width: 700px; height: 700px;margin: 100px auto;}
+      #canvas{position: relative; width: 680px; height: 680px;margin: 100px auto;}
       #ur, #ul, #dr, #dl{position: absolute; border: 37px solid black; width: 280px; height: 280px; overflow: hidden}
       #ur{top:0; right:0;}
       #ul{top:0; left:0;}
@@ -36,6 +36,12 @@
     rndmColors = (shuffleArray(colors));
     rndmPatterns = (shuffleArray(patterns));
 
+    </script>
+<!-- RELOAD THE PAGE EVERY 30" -->
+    <script type="text/javascript">
+    setTimeout(function(){
+ window.location.reload(1);
+}, 30000);
     </script>
   </head>
   <body>
