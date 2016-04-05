@@ -10,9 +10,7 @@
     <title>Un lieu subjectif...</title>
   </head>
   <body>
-    <div id="bkg">
-      /\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\///\/\/\\\//\/\\//\\\\\\\\\//
-    </div>
+    <div id="bkg">    </div>
     <article class="">
     <h1>Un lieu subjectif...</h1>
     <p>
@@ -56,7 +54,6 @@
   </article>
 
 
-<hr>
 <!-- FOOTER -->
     <footer>
       <p>
@@ -66,6 +63,19 @@
         ◇ <a href="https://github.com/un-lieu-subjectif/un-lieu-subjectif.github.io/wiki">To Do List</a> for the present site
       </p>
     </footer>
+
+<!-- BACKGROUND -->
+
+    <script type="text/javascript">
+    var glyphsArray = ["▁","▂","▃","▄","▅","▆","▇","█","▉","▊","▋","▌","▍","▏","▥","░","▒","▓"];
+    var x = "";
+    for (var i = 0; i < 3000; i++) {
+      y = Math.floor(Math.random() * glyphsArray.length);
+      x = x + glyphsArray[y] + " ";
+    }
+    document.getElementById('bkg').innerHTML = x;
+    </script>
+
 
   </body>
 </html>

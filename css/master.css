@@ -1,10 +1,10 @@
 *{margin: 0; padding: 0;}
-body{ padding: 10px; font-size: 16px; line-height: 22px; font-family: 'WorkSans', sans-serif; position: relative;}
+body{font-size: 16px; line-height: 22px; font-family: 'WorkSans', sans-serif; position: relative; word-spacing: -1px;}
 
 article, hr, footer{width: 300px;}
-article{margin: 20px auto; position: relative; background-color: white; border: white solid 5px;}
+article{margin: 20px auto; position: relative; }
 
-#bkg{position: fixed; color: grey; font-family: courier; font-size: 10px; line-height: 8px;}
+#bkg{position: fixed; top: 0; color: #eee; font-family: courier; font-size: 42px; line-height: 42px; word-spacing: -24px; z-index: -1000;}
 
 h1, h2, h3, p, ul {margin-bottom: 10px;}
 h1, h2, h3 {font-weight: 700; }
